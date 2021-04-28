@@ -1,9 +1,4 @@
 # Starter pipeline
-- task: SynopsysDetectTask@6
-  inputs:
-    BlackDuckService: 'blackduck_server'
-    DetectVersion: 'latest'
-    DetectArguments: '--detect.trust.cert=true --detect.project.name=pipeline_scan'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
