@@ -15,7 +15,7 @@ steps:
   inputs:
     BlackDuckService: 'blackduck_server'
     DetectVersion: 'latest'
-    DetectArguments: '--blackduck.trust.cert=true --detect.project.name=pipeline_ado --blackduck.api.token=ODRkODMwYTQtYzYzMi00NzZlLTlhNTQtZGU2MzQyNDM2NTgxOjJkY2Q2YWIyLWI0N2YtNDFkMC04YTdmLTE3ZDNjMDA2NGU4ZA=='
+    DetectArguments: '--blackduck.url=https://sup-hub-mccomb.dc1.lan --blackduck.trust.cert=true --detect.project.name=pipeline_ado --blackduck.api.token=ODRkODMwYTQtYzYzMi00NzZlLTlhNTQtZGU2MzQyNDM2NTgxOjJkY2Q2YWIyLWI0N2YtNDFkMC04YTdmLTE3ZDNjMDA2NGU4ZA=='
   displayName: 'Run a one-line script'
 
 - script: |
