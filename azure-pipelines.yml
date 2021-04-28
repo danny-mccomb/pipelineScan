@@ -11,6 +11,11 @@ pool:
 
 steps:
 - script: echo Hello, world!
+- task: SynopsysDetectTask@6
+  inputs:
+    BlackDuckService: 'blackduck_server'
+    DetectVersion: 'latest'
+    DetectArguments: '--detect.trust.cert=true --detect.project.name=pipeline_ado'
   displayName: 'Run a one-line script'
 
 - script: |
